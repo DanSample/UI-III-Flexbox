@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
+	display: flex;
 	vertical-align: middle;
 }
 
@@ -80,16 +81,12 @@ a {
 	text-decoration: none;
 	padding-left: 25px;
 	padding-right: 25px;
-	display: inline-block;
+	
 }
 
 
 #intro {
-	margin-top: 20px;
-	width: 100%;
-	padding: 10px 0px;
-	margin-bottom: 25px; 
-	text-align: center;
+	display: flex;
 }
 
 .catchphrase, .codepic {
@@ -98,7 +95,6 @@ a {
 	padding: 20px;  
     text-align: center;
 	vertical-align: middle;
-	display: flex;
 }
 
 .catchphrase {
@@ -106,24 +102,20 @@ a {
 }
 
 .navigation {
-	vertical-align: middle;
-	margin-left: 30px;
-	display: inline-block;
-	
+	padding-top: 10px;
+	vertical-align: center;
+	margin-left: 30px;	
 }
 
 
 .logo {
 	margin-left: 50px;
 	vertical-align: middle;	
-	display: inline-block;
-
 }
 
 .megabig {
 	margin-bottom: 25px;
 	font-size: 75px;
-	display: inline-block;
 }
 
 
@@ -136,10 +128,14 @@ h2 {
 	font-weight: bold; 
 }
 
+hr {
+	width: 1000px
+}
+
 .features {
 	margin-top: 20px;
 	margin-left: 30px; 
-	display: inline-block;
+	display: flex;
 }
 
 
@@ -148,7 +144,6 @@ h2 {
   	padding: 15px;
     text-align: left;
 	vertical-align: middle;
-	display: inline-block;
 }
 
 .middle-img {
@@ -159,7 +154,7 @@ h2 {
 
 .servicesection {
 	padding-left: 45px;
-	display: inline-block;
+	display: flex;
 }
 
 .service, .product, .vision {
@@ -167,7 +162,6 @@ h2 {
 	padding: 20px;
 	text-align: middle;
 	vertical-align: middle;
-	display: inline-block;
 }
 
 .contact {
