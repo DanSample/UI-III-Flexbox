@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
+    margin: 15px 0px 15px 20px;
 	display: flex;
 }
 
@@ -92,11 +93,6 @@ a {
 .logo {
 	margin-left: 50px;
 	vertical-align: middle;	
-}
-
-button {
-	margin: 0px;
-	padding: 10px 40px
 }
 
 h2 {
@@ -145,14 +141,14 @@ hr {
 }
 
 .copyright {
-	width:90%;
+	width: 100%;
 	text-align: center;
 }
 
 
 .header {
 	height: 350px;
-	width: 100%;
+    width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -160,70 +156,69 @@ hr {
 }
 
 .header .services {
-	width: 880px;
-}
-
-hr {
+    border-bottom: 1.5px solid black;
+    padding-bottom: 35px;
     width: 880px;
 }
 
-/* Just after <hr> break*/
+.biggerfont {
+    font-size: 20px;
+}
 
-.allcontainers {
+
+
+/* Just after the first Line break*/
+
+#allcontainers {
+    height: 800px;
+    width: 100%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
     justify-content: space-evenly;
 }
 
-.topcontainer {
+.midbox {
+    background: rgba(237, 241, 247, 0.918);
+    padding: 20px;
+    flex-basis: 41%;
+    border: 1px solid black;
+
+}
+
+button {
+    border-radius: 4px;
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+#factsfooter {
     display: flex;
+    align-content: space-between;
     justify-content: space-evenly;
 }
 
-.topcontainer .digdesign {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
-    border: 1px solid black;
-
+.facts {
+    flex-basis: 40%;
 }
 
-.topcontainer .uxui {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
-    border: 1px solid black;
+.services-info-img {
+    width: 41%;
+    margin-bottom: 100px;
 }
 
-
-.midcontainer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.midcontainer .digmarketing {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
+.botborder {
+    height: 1.5px;
+    width: 880px;
+    margin: 5px 0px 35px 60px;
     border: 1px solid black;
 }
 
-.midcontainer .webdev {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
-    border: 1px solid black;
+ul {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
-.botcontainer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.botcontainer .ios {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
-    border: 1px solid black;
-}
-
-.botcontainer .android {
-    background: rgba(237, 241, 247, 0.918);
-    flex-basis: 41%;
-    border: 1px solid black;
+li {
+    padding: 10px;
 }
