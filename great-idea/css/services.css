@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Rest above*/
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 #body {
 	width: 1000px;
@@ -82,23 +82,6 @@ a {
 	
 }
 
-
-#intro {
-	display: flex;
-}
-
-.catchphrase, .codepic {
-	width: 45%;
-	height: 400px;
-	padding: 20px;  
-    text-align: center;
-	vertical-align: middle;
-}
-
-.catchphrase {
-	padding-top: 65px;
-}
-
 .navigation {
 	padding-top: 10px;
 	vertical-align: center;
@@ -110,12 +93,6 @@ a {
 	margin-left: 50px;
 	vertical-align: middle;	
 }
-
-.megabig {
-	margin-bottom: 25px;
-	font-size: 75px;
-}
-
 
 button {
 	margin: 0px;
@@ -172,8 +149,81 @@ hr {
 	text-align: center;
 }
 
-/* CSS for services.html below*/
+
+.header {
+	height: 350px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .services {
+	width: 880px;
+}
+
+hr {
+    width: 880px;
+}
+
+/* Just after <hr> break*/
+
+.allcontainers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topcontainer .digdesign {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+
+}
+
+.topcontainer .uxui {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+}
 
 
-/* Nav, top img, and services*/
+.midcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.midcontainer .digmarketing {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+}
+
+.midcontainer .webdev {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+}
+
+.botcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botcontainer .ios {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+}
+
+.botcontainer .android {
+    background: rgba(237, 241, 247, 0.918);
+    flex-basis: 41%;
+    border: 1px solid black;
+}
