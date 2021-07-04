@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* Rest above*/
+
+
+#body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.navbar {
+    margin: 15px 0px 15px 20px;
+	display: flex;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+.navigation {
+	padding-top: 10px;
+	vertical-align: center;
+	margin-left: 30px;	
+}
+
+
+.logo {
+	margin-left: 50px;
+	vertical-align: middle;	
+}
+
+h2 {
+	font-weight: bold; 
+}
+
+hr {
+	width: 980px
+}
+
+.features {
+	margin-top: 20px;
+	margin-left: 30px; 
+	display: flex;
+}
+
+
+.feat, .bout {
+	width: 49%;
+  	padding: 15px;
+    text-align: left;
+	vertical-align: middle;
+}
+
+.middle-img {
+	margin-top: 20px;
+	margin-left: 47px;
+	margin-bottom: 20px; 
+}
+
+.servicesection {
+	padding-left: 45px;
+	display: flex;
+}
+
+.service, .product, .vision {
+	width: 31%;
+	padding: 20px;
+	text-align: middle;
+	vertical-align: middle;
+}
+
+.contact {
+	margin: 40px 0px 20px 45px;
+	width: 200px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+}
+
+
+.header {
+	height: 350px;
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .services {
+    border-bottom: 1.5px solid black;
+    padding-bottom: 35px;
+    width: 880px;
+}
+
+.biggerfont {
+    font-size: 20px;
+}
+
+
+
+/* Just after the first Line break*/
+
+#allcontainers {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.midbox {
+    background: rgba(237, 241, 247, 0.918);
+    padding: 20px;
+    flex-basis: 41%;
+    border: 1px solid black;
+
+}
+
+button {
+    border-radius: 4px;
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+#factsfooter {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.facts {
+    flex-basis: 40%;
+}
+
+.services-info-img {
+    width: 41%;
+    margin-bottom: 100px;
+}
+
+.botborder {
+    height: 1.5px;
+    width: 880px;
+    margin: 5px 0px 35px 60px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    padding: 10px;
+}
